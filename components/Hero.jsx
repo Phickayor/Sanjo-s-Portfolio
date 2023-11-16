@@ -3,7 +3,7 @@ import Links from "./Links";
 
 function Hero() {
   return (
-    <div className="py-36 text-center font-blowbrush">
+    <div className="py-32 text-center font-blowbrush">
       <div>
         <img src="/images/left.png" className="absolute left-0 top-0" />
         <img src="/images/right.png" className="absolute right-0  bottom-28" />
@@ -12,9 +12,7 @@ function Hero() {
           <h1 className="text-[140px] leading-[140px]">Egbewunmi Olusanjo</h1>
         </div>
       </div>
-      <div className="py-40">
-        <Links />
-      </div>
+      <Links />
     </div>
   );
 }
