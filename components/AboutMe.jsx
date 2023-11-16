@@ -1,5 +1,6 @@
 import React from "react";
 import Keywords from "./Keywords";
+import Definition from "./Definition";
 function AboutMe() {
   return (
     <div className="py-20 space-y-8">
@@ -24,7 +25,8 @@ function AboutMe() {
           <h4 className="self-center">Figma</h4>
         </div>
       </div>
-      <Keywords/>
+      <Keywords />
+      <Definition />
     </div>
   );
 }
