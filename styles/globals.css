@@ -11,7 +11,12 @@
   font-weight: normal;
   font-style: normal;
 }
-
+@font-face {
+  font-family: "Poppins-Light";
+  src: url('/fonts/poppins/Poppins-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
   font-family: 'Blowbrush';
   src: url('/fonts/blowbrush/blowbrush.otf') format('opentype'),
@@ -22,12 +27,19 @@
 .font-poppins {
   font-family: 'Poppins', sans-serif;
 }
-
+.font-poppins-light{
+  font-family: 'Poppins-Light', sans-serif;
+}
 .font-biz {
   font-family: 'BIZ UDMincho', serif;
 }
 .font-blowbrush{
   font-family: 'Blowbrush', sans-serif;
+}
+
+.dashed-border {
+  border-width: 2px;
+  border-style: dashed;
 }
 body {
   @apply bg-background text-black font-poppins font-light;

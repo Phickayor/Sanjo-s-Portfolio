@@ -2,7 +2,7 @@ import React from "react";
 
 function ProductDesigner() {
   return (
-    <div className="mx-auto w-9/12 space-y-8">
+    <div className="space-y-8">
       <h1 className="font-blowbrush text-[90px]">ProducT Designer ✌️</h1>
       <p className="text-2xl">
         As a Product Designer, I exist at the dynamic crossroads of imagination
