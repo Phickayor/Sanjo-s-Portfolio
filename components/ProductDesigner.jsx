@@ -2,7 +2,7 @@ import React from "react";
 
 function ProductDesigner() {
   return (
-    <div className="space-y-8">
+    <div className="space-y-4 md:space-y-8">
       <h1 className="font-blowbrush text-[40px] md:text-[70px] lg:text-[90px]">
         ProducT Designer✌️
       </h1>
