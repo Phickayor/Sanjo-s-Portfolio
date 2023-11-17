@@ -23,7 +23,7 @@ function Graphics() {
         {designs.map((design) => (
           <img
             src={`/images/${design}.png`}
-            className="h-full object-cover"
+            className="w-full h-full object-cover"
             alt="Instagram Post Designs"
           />
         ))}
