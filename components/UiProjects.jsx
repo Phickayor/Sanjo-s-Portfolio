@@ -10,13 +10,14 @@ function UiProjects() {
         <img
           src="/images/wedding-site.png"
           alt="wedding landing page"
+          className="w-full"
         />
       </div>
       <div className="grid grid-cols-2 font-biz">
         <img
           src="/images/portfolio-site.png"
           alt="Portfolio site"
-          className=""
+          className="w-full"
         />
         <h1 className="text-[40px] pr-5 leading-[50px] md:text-[80px] md:leading-[130px] self-end md:mb-10">
           PORTFOLIO DESIGN
