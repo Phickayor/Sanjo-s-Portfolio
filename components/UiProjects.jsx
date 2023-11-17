@@ -2,9 +2,9 @@ import React from "react";
 
 function UiProjects() {
   return (
-    <div>
-      <div className=" grid grid-cols-2 font-biz">
-        <h1 className="pl-20 text-[80px] leading-[130px] mt-20">
+    <div className="py-10 md:py-20">
+      <div className="grid grid-cols-2 font-biz">
+        <h1 className="md:pl-20 pl-5 text-[40px] leading-[50px] md:text-[80px] md:leading-[130px] md:mt-20">
           WEDDING LANDING PAGE
         </h1>
         <img
@@ -19,7 +19,7 @@ function UiProjects() {
           alt="Portfolio site"
           className=""
         />
-        <h1 className="text-[80px] leading-[130px] self-end mb-10">
+        <h1 className="text-[40px] pr-5 leading-[50px] md:text-[80px] md:leading-[130px] self-end md:mb-10">
           PORTFOLIO DESIGN
         </h1>
       </div>
