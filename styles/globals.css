@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=BIZ+UDMincho&display=swap');
-
 @font-face {
   font-family: 'Poppins';
   src:url('/fonts/poppins/Poppins-Regular.ttf') format('truetype');
@@ -21,6 +18,12 @@
   font-family: 'Blowbrush';
   src: url('/fonts/blowbrush/blowbrush.otf') format('opentype'),
     url('/fonts/blowbrush/blowbrush.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BIZ UDMincho';
+  src: url('/fonts/BIZ_UDMincho/BIZUDMincho-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

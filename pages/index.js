@@ -1,6 +1,7 @@
 import AboutMe from "@/components/AboutMe";
 import Hero from "@/components/Hero";
 import ProductDesigner from "@/components/ProductDesigner";
+import UiProjects from "@/components/UiProjects";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <ProductDesigner />
         <AboutMe />
       </div>
+      <UiProjects />
     </>
   );
 }
