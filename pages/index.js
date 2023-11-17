@@ -14,7 +14,7 @@ export default function Home() {
         <ProductDesigner />
         <AboutMe />
       </div>
-      {/* <UiProjects /> */}
+      <UiProjects />
       <Graphics />
       <Branding />
       <Footer />

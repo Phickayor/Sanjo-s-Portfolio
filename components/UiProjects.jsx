@@ -3,15 +3,23 @@ import React from "react";
 function UiProjects() {
   return (
     <div>
-      <div className="ml-auto w-11/12 flex justify-between font-biz">
-        <h1 className="text-[130px] leading-[130px] mt-20 h-fit">
+      <div className=" grid grid-cols-2 font-biz">
+        <h1 className="pl-20 text-[80px] leading-[130px] mt-20">
           WEDDING LANDING PAGE
         </h1>
-        <img src="/images/wedding-site.png" alt="wedding landing page" />
+        <img
+          src="/images/wedding-site.png"
+          alt="wedding landing page"
+          className="w-full"
+        />
       </div>
-      <div className="w-11/12 flex justify-between font-biz">
-        <img src="/images/portfolio-site.png" alt="Portfolio site" />
-        <h1 className="text-[120px] leading-[130px] self-end mb-20">
+      <div className="grid grid-cols-2 font-biz">
+        <img
+          src="/images/portfolio-site.png"
+          alt="Portfolio site"
+          className=""
+        />
+        <h1 className="text-[80px] leading-[130px] self-end mb-10">
           PORTFOLIO DESIGN
         </h1>
       </div>
