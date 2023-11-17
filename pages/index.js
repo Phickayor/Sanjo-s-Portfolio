@@ -1,4 +1,5 @@
 import AboutMe from "@/components/AboutMe";
+import Graphics from "@/components/Graphics";
 import Hero from "@/components/Hero";
 import ProductDesigner from "@/components/ProductDesigner";
 import UiProjects from "@/components/UiProjects";
@@ -12,6 +13,7 @@ export default function Home() {
         <AboutMe />
       </div>
       <UiProjects />
+      <Graphics />
     </>
   );
 }
