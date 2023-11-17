@@ -1,4 +1,6 @@
 import AboutMe from "@/components/AboutMe";
+import Branding from "@/components/Branding";
+import Footer from "@/components/Footer";
 import Graphics from "@/components/Graphics";
 import Hero from "@/components/Hero";
 import ProductDesigner from "@/components/ProductDesigner";
@@ -14,6 +16,8 @@ export default function Home() {
       </div>
       <UiProjects />
       <Graphics />
+      <Branding />
+      <Footer />
     </>
   );
 }

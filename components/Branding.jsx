@@ -1,22 +1,22 @@
 import React from "react";
 
-function Graphics() {
+function Branding() {
   const designs = [
-    "graphics-1",
-    "graphics-2",
-    "graphics-3",
-    "graphics-4",
-    "graphics-5",
-    "graphics-6",
-    "graphics-7",
-    "graphics-8",
-    "graphics-9"
+    "branding-1",
+    "branding-2",
+    "branding-3",
+    "branding-4",
+    "branding-5",
+    "branding-6",
+    "branding-7",
+    "branding-8",
+    "branding-9"
   ];
   return (
     <div className="py-10 space-y-8">
       <div className="mx-auto w-9/12">
         <h1 className="font-blowbrush text-center text-[130px] leading-[130px]">
-          Instagram Post Design
+          Branding
         </h1>
       </div>
       <div className="grid grid-cols-3 w-full">
@@ -24,7 +24,7 @@ function Graphics() {
           <img
             src={`/images/${design}.png`}
             className="h-full object-cover"
-            alt="Instagram Post Designs"
+            alt="Branding Designs"
           />
         ))}
       </div>
@@ -32,4 +32,4 @@ function Graphics() {
   );
 }
 
-export default Graphics;
+export default Branding;
