@@ -2,15 +2,14 @@ import React from "react";
 
 function UiProjects() {
   return (
-    <div className="py-10 md:py-20">
-      <div className="grid grid-cols-2 font-biz">
+    <div className="md:py-20">
+      <div className="grid grid-cols-2 font-biz -mt-14 md:mt-0 ">
         <h1 className="md:pl-20 pl-5 text-[40px] leading-[50px] md:text-[80px] md:leading-[130px] md:mt-20">
           WEDDING LANDING PAGE
         </h1>
         <img
           src="/images/wedding-site.png"
           alt="wedding landing page"
-          className="w-full"
         />
       </div>
       <div className="grid grid-cols-2 font-biz">

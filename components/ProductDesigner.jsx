@@ -4,7 +4,7 @@ function ProductDesigner() {
   return (
     <div className="space-y-8">
       <h1 className="font-blowbrush text-[40px] md:text-[70px] lg:text-[90px]">
-        ProducT Designer ✌️
+        ProducT Designer✌️
       </h1>
       <p className="text-xl md:text-2xl text-center">
         As a Product Designer, I exist at the dynamic crossroads of imagination
